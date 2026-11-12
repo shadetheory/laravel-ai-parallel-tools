@@ -19,7 +19,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-[Parallel Tools](https://github.com/jordanpartridge/laravel-ai-parallel-tools) runs the tool calls from one Laravel AI step at the same time, for tools you mark with the `Concurrent` attribute.
+[Parallel Tools](https://github.com/shadetheory/laravel-ai-parallel-tools) runs the tool calls from one Laravel AI step at the same time, for tools you mark with the `Concurrent` attribute.
 
 The model chooses the calls. A step can contain several of them. Two or more marked calls in that step run through [Laravel Concurrency](https://laravel.com/framework/docs/concurrency). Every other call runs in order. The prompt, the schemas, and the calls the model returns stay the same.
 
