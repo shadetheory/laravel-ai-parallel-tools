@@ -13,3 +13,4 @@ phpunit.xml.dist  export-ignore
 pint.json         export-ignore
 testbench.yaml    export-ignore
 tests/            export-ignore
+CONTRIBUTING.md export-ignore
