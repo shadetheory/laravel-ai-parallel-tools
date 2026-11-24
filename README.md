@@ -96,6 +96,10 @@ return (string) $response;
 
 If the model asks for both cities in one step, the two calls run together. The rest of the setup is in the [documentation](docs/parallel-tools.md).
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the code-approval and merge rule.
+
 ## License
 
 Laravel AI Parallel Tools is open-sourced software licensed under the [MIT license](LICENSE).
